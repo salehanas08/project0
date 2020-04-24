@@ -1,0 +1,52 @@
+h1 {
+			color: black;
+			text-align: center;
+			font-family: sans-serif, sans-serif;
+			font-size: 45px;
+			
+        }
+h2 {
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+p {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div {
+    background-color: springgreen;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+}
+.date {
+    font-weight: bold;
+    font-size: 22px;
+    color: red;
+}
+.wrapper {
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    
+}
+button {
+            position: absolute;
+            top: auto;
+            width: 300px;
+			height: 60px;
+			font-size: 20px;
+			background-color: springgreen;
+}
+button:hover {
+    background-color: transparent;
+}
